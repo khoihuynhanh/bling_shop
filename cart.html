@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+
+    <nav class="navbar"></nav>
+    
+    <section class="cart section">
+        <h1 class="cart_header">cart</h1>
+
+        <div class="cart_top">
+            <div class="cart_title">
+                <h1>product</h1>
+            </div>
+            <div class="cart_details">
+                <h1>price</h1>
+                <h1>quantity</h1>
+                <h1>total</h1>
+                <h1>remove</h1>
+            </div>
+        </div>
+
+        <div class="cart_product"></div>
+
+        <div class="total_buy">
+            <div class="total_price"></div>
+            <button class="btn" onclick="handleBuyCart()">buy</button>
+        </div>
+    </section>
+
+
+    <script src="js/navbar.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+    
+</body>
+</html>

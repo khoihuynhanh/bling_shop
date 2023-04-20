@@ -1,0 +1,158 @@
+.nocart {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.nocart img {
+    height: 100%;
+    width: 100%;
+}
+
+.cart {
+    height: 100vh;
+}
+
+.cart_product {
+    height: 50px;
+    overflow-y: auto;
+}
+
+.cart_product::-webkit-scrollbar {
+    width: 5px;
+}
+
+.cart_product::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+
+.cart_product::-webkit-scrollbar-thumb {
+    background: #ead9bd; 
+    border-radius: 10px;
+}
+
+.cart_product::-webkit-scrollbar-thumb:hover {
+    background: #ccba9c; 
+}
+
+.cart_header {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 2px #ead9bd;
+}
+
+.cart_top {
+    margin: 20px 0;
+}
+
+.cart_top, .cart_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_title {
+    width: 40%;
+    text-transform: uppercase;
+}
+
+.cart_wrapper {
+    margin-top: 20px;
+}
+
+.cart_wrapper:nth-child(1){
+    margin-top: 0;
+}
+
+.cart_details, .cart_attribute {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+
+.cart_details h1 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cart_attribute h3,
+.cart_attribute div {
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+}
+
+.cart_remove i {
+    cursor: pointer;
+}
+
+.cart_qty {
+    width: 30% !important;
+}
+
+.cart_item {
+    display: flex;
+    align-items: center;
+}
+
+.cart_img {
+    width: 150px;
+    height: 180px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.cart_info {
+    text-transform: capitalize;
+}
+
+.cart_info h2 {
+    font-weight: 100;
+}
+
+.change_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change_wrapper button {
+    background-color: #ead9bd;
+    border-radius: 50%;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.total_buy {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.total_price {
+    font-size: 24px;
+    color: #ee3939;
+}
+
+.total_buy button {
+    margin-top: 0;
+}
